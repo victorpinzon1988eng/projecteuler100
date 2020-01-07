@@ -10,7 +10,7 @@ let checkMultiplesOf3And5 = (upperLimit) => {
 
     for(let i = 0; i < upperLimit; i++){
 
-        if((i % 3 == 0) || (i % 5 == 0))
+        if((i % 3 === 0) || (i % 5 === 0))
             result += i;
     }
 
